@@ -2,7 +2,7 @@
 # https://www.f5.com/company/blog/nginx/f5-nginx-modsecurity-waf-transitioning-to-eol
 # https://www.coraza.io/
 
-ARG nginx_version=1.31.8
+ARG nginx_version
 
 FROM golang:trixie AS coraza_build
 ARG nginx_version
